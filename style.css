@@ -1,0 +1,41 @@
+/* Reset default styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #A9C482;
+}
+/* Common styles for circles */
+.circle-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.small-circle,
+.big-circle {
+    position: absolute;
+    border-radius: 50%;
+}
+/* Styles for small circles */
+.small-circle {
+    width: 70px;
+    height: 70px;
+    background-color: #2D696F;
+}
+/* Position small circles */
+.north { top: 7%; left: 50%; transform: translateX(-50%); }
+.west { top: 50%; left: 7%; transform: translateY(-50%); }
+.south { bottom: 7%; left: 50%; transform: translateX(-50%); }
+.east { top: 50%; right: 7%; transform: translateY(-50%); }
+/* Styles for the big circle */
+.big-circle {
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #A9C482;
+    z-index: 2;
+}
