@@ -1,0 +1,70 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&family=League+Spartan:wght@500&display=swap');
+
+main {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+}
+.first{
+    display: flex;
+    padding: 20px 20px;
+}
+.one{
+        width: 30%;
+        margin: 35px 170px;
+       
+}
+.one h1{
+    font-weight: 700;
+    font-size: 40px;
+    color:  hsl(300, 43%, 22%);
+}
+.one p{
+    color:  hsl(303, 10%, 53%);
+}
+
+.rec {
+    padding: 0 30px;
+    background-color: hsl(300, 24%, 96%);
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+   border-radius: 20px;
+}
+#two {
+    margin-left: 50px;
+ 
+}
+
+#three {
+    margin-left: 100px;
+}
+.two{
+    margin: 50px 10px;
+    position: relative;
+}
+.img{
+    margin-right: 40px;
+}
+.second{
+    display: flex;
+    margin-left: 50px;
+}
+.rect{
+background-color:  hsl(300, 43%, 22%);
+width: 300px;
+margin-right: 30px;
+margin-left: 20px;
+padding: 20px 20px;
+border-radius: 10px;
+}
+.rect img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    
+}
+.per p{
+    margin-left: 30px;
+    margin-top: 10px; 
+}
