@@ -1,0 +1,49 @@
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&family=League+Spartan:wght@500&family=Lexend+Deca:wght@200&family=Big+Shoulders+Display:wght@300&display=swap');
+/* Common styles for the main container and cards */
+main {
+    display: flex;
+    padding: 90px 200px;
+    width: 900px;
+    height: 500px;
+    font-family: 'Hanken Grotesk', 'League Spartan', 'Lexend Deca', sans-serif;
+  }
+  /* Common styles for all cards */
+  .first, .second, .third {
+    padding: 30px;
+    margin-bottom: 2px;
+  }
+  .first { background-color: hsl(31, 77%, 52%); }
+  .second { background-color: hsl(184, 100%, 22%); }
+  .third { background-color: hsl(179, 100%, 13%); }
+  /* Shared paragraph styles */
+  p {
+    color: hsla(0, 0%, 100%, 0.75);
+    word-spacing: 8px;
+    line-height: 2;
+  }
+ /* Common styles for all headings */
+h4 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive, 'Hanken Grotesk', 'League Spartan', 'Lexend Deca', sans-serif;
+   font-size: large;
+   word-spacing: 12px;
+  }
+  /* Common styles for all buttons */
+  button {
+    width: 150px;
+    height: 50px;
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 100px;
+    cursor: pointer;
+  }
+  /* Button and hover styles */
+  button:hover, #one:hover, #two:hover, #three:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+  }
+  /* Individual styles for buttons */
+  #one { color: hsl(31, 77%, 52%); }
+  #two { color: hsl(184, 100%, 22%); }
+  #three { color: hsl(179, 100%, 13%); }
