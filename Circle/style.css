@@ -1,0 +1,29 @@
+.top{
+    height: 200px;
+    width: 100px;
+    background-color: #9CCCDB;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;  
+}
+.side{
+    height: 100px;
+    width: 100px;
+    background-color: #9CCCDB;
+    border-bottom-left-radius: 100px;
+    margin-top: 20px;
+}
+.in{
+    display: inline;
+}
+.all{
+    display: flex;
+    justify-content: center;
+     margin-top: 250px;
+}
+.butt{
+    height: 80px;
+    width: 80px;
+    background-color: #9CCCDB;
+    border-top-left-radius: 100px;
+  
+}
