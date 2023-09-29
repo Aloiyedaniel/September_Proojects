@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Big+Shoulders+Display:wght@300&family=Hanken+Grotesk:wght@500&family=League+Spartan:wght@500&family=Lexend+Deca:wght@200&family=Montserrat:ital,wght@0,200;1,200&family=Outfit:wght@200&family=Red+Hat+Display:wght@500&display=swap');
+.annual{
+    display: inline;
+    line-height: 2px;
+}
+.ann{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    background-color:  hsl(225, 100%, 98%);
+    padding: 10px;
+    border-radius: 15px;
+}
+.both{
+    display: inline;
+   margin: 100px;
+   
+}
+body{
+    background-color:  hsl(225, 100%, 94%);
+    display: flex;
+}
+.order{
+    background-color: white;
+    padding: 20px;
+    width: 360px;
+    border-radius: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#mill, #cancel, #dolls{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+#cj{
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+#cj:hover{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);;
+}
+h2{
+    color: hsl(223, 47%, 23%);
+    text-align:center;
+}
+  .img img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 400px;
+    margin-bottom: -20px;
+}
+button{
+    background-color: hsl(245, 75%, 52%);
+    width: 200px;
+    height: 45px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+@media (max-width: 768px) {
+.img, .order{
+    width: 200px;
+    
+}
+}
